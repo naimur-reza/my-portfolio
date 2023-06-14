@@ -10,6 +10,7 @@
 //   figma,
 // } from "../assets/tech";
 
+import campsunshine from "../../src/assets/projects/campsunshine.png";
 export const navLinks = [
   {
     id: "about",
@@ -105,7 +106,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // image: carrent,
+    image: campsunshine,
     source_code_link: "https://github.com/",
     live_link: "",
   },
