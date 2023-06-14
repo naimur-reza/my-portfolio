@@ -11,6 +11,7 @@
 // } from "../assets/tech";
 
 import campsunshine from "../../src/assets/projects/campsunshine.png";
+import tinkerland from "../../src/assets/projects/tinkerland.png";
 export const navLinks = [
   {
     id: "about",
@@ -132,7 +133,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // image: jobit,
+    image: tinkerland,
     source_code_link: "https://github.com/",
     live_link: "",
   },
