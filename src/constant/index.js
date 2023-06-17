@@ -12,6 +12,7 @@
 
 import campsunshine from "../../src/assets/projects/campsunshine.png";
 import tinkerland from "../../src/assets/projects/tinkerland.png";
+import cookdens from "../../src/assets/projects/cookdens.png";
 export const navLinks = [
   {
     id: "about",
@@ -87,7 +88,7 @@ const projects = [
   {
     name: "Camp Sun Shine",
     description:
-      "Web-based platform that allows students to search, learning language based classes. There are three  dashboard for different role Teacher, Student and Admin. Also have payment-gateway using stripe for enroll student..",
+      "Web-based platform that allows students to search, Language Courses. There are three  dashboard for three role Instructor, Student and Admin. Also have payment-gateway using stripe for enroll student.",
 
     tags: [
       {
@@ -140,7 +141,7 @@ const projects = [
   {
     name: "Cook Dens",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Recipe Services Web Application. Where users can search for food based on Chef. Available valuable chef's with their best recipes. User's can bookmark their favorite Foods.",
     tags: [
       {
         name: "nextjs",
@@ -155,7 +156,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // image: tripguide,
+    image: cookdens,
     source_code_link: "https://github.com/",
   },
 ];
