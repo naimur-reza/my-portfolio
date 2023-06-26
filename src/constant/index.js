@@ -97,7 +97,7 @@ const projects = [
       },
       {
         name: "nodeJs",
-        color: "blue-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "mongodb",
@@ -105,7 +105,7 @@ const projects = [
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "orange-text-gradient",
       },
     ],
     image: campsunshine,
@@ -123,15 +123,15 @@ const projects = [
       },
       {
         name: "nodeJs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mongodb",
         color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "orange-text-gradient",
       },
     ],
     image: tinkerland,
@@ -144,16 +144,20 @@ const projects = [
       "A Recipe Services Web Application. Where users can search for food based on Chef. Available valuable chef's with their best recipes. User's can bookmark their favorite Foods.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nodeJs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongodb",
         color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "orange-text-gradient",
       },
     ],
     image: cookdens,
