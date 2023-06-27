@@ -6,11 +6,19 @@ const Menu = () => {
       <h1 className="text-3xl font-bold bg-gradient-to-r from-[rgb(255,23,123)]  to-[rgb(61,1,81)]  inline-block text-transparent bg-clip-text">
         Portfolio
       </h1>
-      <ul className=" flex gap-7 text-gray-300">
-        <li>Home</li>
-        <li>Resume</li>
-        <li>About</li>
-        <li>Contact</li>
+      <ul className=" flex gap-7 text-gray-200">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="">Resume</a>
+        </li>
+        <li>
+          <a href="">About</a>
+        </li>
+        <li>
+          <a href="">Contact</a>
+        </li>
       </ul>
     </div>
   );

@@ -5,14 +5,17 @@ import Menu from "./components/Menu";
 
 const App = () => {
   return (
-    <div className="h-[100vh]  bg-black ">
-      <div id="stars"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
-      <Menu />
-      <About />
-      {/* <Works /> */}
-    </div>
+    <>
+      <div className="h-[100vh]  bg-black ">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <Menu />
+        <About />
+        {/* <Works /> */}
+      </div>
+      <a href="" className="scroll-btn" />
+    </>
   );
 };
 

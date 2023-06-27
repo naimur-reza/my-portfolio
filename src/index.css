@@ -677,3 +677,48 @@
     transform: translateY(-2000px);
   }
 }
+
+/* scroll btn css */
+.scroll-btn {
+  position: absolute;
+  height: 40px;
+  width: 20px;
+  border: 2px solid #62cafd;
+  border-radius: 30px;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: h-animation 4s alternate;
+}
+.scroll-btn::before,
+.scroll-btn::after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  border: 2px solid #62cafd;
+  height: 9px;
+  width: 9px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-btn 1s ease-in-out infinite;
+}
+.scroll-btn::after {
+  top: 30%;
+}
+@keyframes scroll-btn {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 90%;
+  }
+}
