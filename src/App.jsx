@@ -15,12 +15,12 @@ const App = () => {
           <Menu />
 
           <About />
-          {/* <Works /> */}
         </div>
         <a href="" className="scroll-btn" />
         <div className=" px-24 pt-10">
           <Services />
         </div>
+        <Works />
       </div>
     </>
   );
