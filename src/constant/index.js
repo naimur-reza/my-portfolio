@@ -16,6 +16,7 @@ import react from "../../src/assets/react.png";
 import campsunshine from "../../src/assets/projects/campsunshine.png";
 import tinkerland from "../../src/assets/projects/tinkerland.png";
 import cookdens from "../../src/assets/projects/cookdens.png";
+import aircnc from "../../src/assets/projects/aircnc.png";
 export const navLinks = [
   {
     id: "about",
@@ -195,6 +196,31 @@ const projects = [
       },
     ],
     image: cookdens,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Air Cnc",
+    description:
+      "A hotel booking service web-application. Airbnb clone web-application. Available valuable hotel's with their best services. User's can book their hotel after make payment",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodeJs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: aircnc,
     source_code_link: "https://github.com/",
   },
 ];
