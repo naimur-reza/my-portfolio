@@ -7,7 +7,7 @@ import Services from "./components/Services";
 const App = () => {
   return (
     <>
-      <div className=" bg-black overflow-hidden">
+      <div className=" bg-primary overflow-hidden">
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>
