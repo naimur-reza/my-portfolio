@@ -17,6 +17,12 @@ import campsunshine from "../../src/assets/projects/campsunshine.png";
 import tinkerland from "../../src/assets/projects/tinkerland.png";
 import cookdens from "../../src/assets/projects/cookdens.png";
 import aircnc from "../../src/assets/projects/aircnc.png";
+import toursite from "../../src/assets/projects/toursite.png";
+import coffeesite from "../../src/assets/projects/coffeesite.png";
+import cardoctor from "../../src/assets/projects/cardoctor.png";
+import emajhon from "../../src/assets/projects/emajhon.png";
+import booksite from "../../src/assets/projects/booksite.png";
+import jobPortal from "../../src/assets/projects/jobportal.png";
 export const navLinks = [
   {
     id: "about",
@@ -221,6 +227,132 @@ const projects = [
       },
     ],
     image: aircnc,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "EmaJhon",
+    description:
+      "A e-commerce web-application. Available valuable products with their best services. User's can add their product to cart and checkout after make payment. ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodeJs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: emajhon,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Car Doctor",
+    description:
+      "A car service web-application. Available valuable services. Customers can make appointment for their services. Applied authentication using firebase",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodeJs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: cardoctor,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Espresso Emporium",
+    description:
+      "A coffee shop where user can add new available coffee and order price. Also can delete and update coffee as well",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodeJs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: coffeesite,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Lit Lounge",
+    description:
+      "A book shop frontend only web-application, where user can find their favorite book and order price. Available valuable books. ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: booksite,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Travel Guru",
+    description:
+      "A travel agency web-application. User can search for their favorite place and book their hotel.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: toursite,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Job Portal",
+    description:
+      "A job searching web-application. Where user can search for job and they can apply for job.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: jobPortal,
     source_code_link: "https://github.com/",
   },
 ];
