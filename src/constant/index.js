@@ -339,7 +339,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job Portal",
+    name: "Hire Spotlight",
     description:
       "A job searching web-application. Where user can search for job and they can apply for job.",
     tags: [
