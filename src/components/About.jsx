@@ -11,6 +11,7 @@ const About = () => {
           I develop web interface and web application
         </p>
       </div>
+      nice with
     </>
   );
 };
