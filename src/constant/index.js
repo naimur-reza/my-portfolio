@@ -9,7 +9,10 @@
 //   git,
 //   figma,
 // } from "../assets/tech";
-
+import frontend from "../../src/assets/frontend.png";
+import backend from "../../src/assets/backend.png";
+import Mern from "../../src/assets/mern.png";
+import react from "../../src/assets/react.png";
 import campsunshine from "../../src/assets/projects/campsunshine.png";
 import tinkerland from "../../src/assets/projects/tinkerland.png";
 import cookdens from "../../src/assets/projects/cookdens.png";
@@ -31,19 +34,19 @@ export const navLinks = [
 const services = [
   {
     title: "Frontend Developer",
-    // icon: web,
+    icon: frontend,
   },
   {
     title: "Backend Developer",
-    // icon: backend,
+    icon: backend,
   },
   {
     title: "Mern Satck Developer",
-    // icon: creator,
+    icon: Mern,
   },
   {
     title: "React Developer",
-    // icon: react,
+    icon: react,
   },
 ];
 
