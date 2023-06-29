@@ -20,8 +20,12 @@ const MySkills = () => {
       <div className="flex flex-wrap gap-[60px] justify-around mt-20">
         {technologies.map((image, index) => {
           return (
-            <motion.div variants={zoomIn(index * 0.4, 0.3)}>
-              <img className="lg:w-20 w-16 " key={index} src={image} />
+            <motion.div key={index} variants={zoomIn(index * 0.4, 0.3)}>
+              <img
+                className="lg:w-20 w-16 hover:scale-110 duration-200 transition cursor-pointer"
+                key={index}
+                src={image}
+              />
             </motion.div>
           );
         })}

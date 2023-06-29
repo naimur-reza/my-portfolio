@@ -94,8 +94,10 @@ const About = () => {
         <div className="text-sky-400 opacity-90 space-y-9 mt-8">
           {socialLinks.map((socialLink, index) => {
             return (
-              <motion.div variants={fadeIn("left", "spring", 0.4, 1.7)}>
-                <div key={index}>
+              <motion.div
+                key={index}
+                variants={fadeIn("left", "spring", 0.4, 1.7)}>
+                <div>
                   <IconContext.Provider value={{ className: "icon-class" }}>
                     <a href={socialLink.link}>
                       <socialLink.icon

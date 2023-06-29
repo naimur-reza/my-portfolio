@@ -56,7 +56,7 @@ const Menu = () => {
               <IoMdContact size={22} /> Contact
             </a>
           </li>
-          <li className=" border border-sky-500 rounded  px-2 py-1 bg-sky-500 bg-opacity-20 hover:bg-opacity-30 duration-200 transition">
+          <li className="  border-sky-500 rounded border-b   px-2 py-1 bg-sky-600 bg-opacity-20 hover:bg-opacity-30 duration-200 transition">
             <a href="">Resume</a>
           </li>
         </ul>

@@ -129,7 +129,7 @@ const projects = [
     ],
     image: campsunshine,
     source_code_link: "https://github.com/",
-    live_link: "",
+    live_link: "https://campsunshine-c653c.web.app/",
   },
   {
     name: "Tinker Land",
@@ -155,7 +155,7 @@ const projects = [
     ],
     image: tinkerland,
     source_code_link: "https://github.com/",
-    live_link: "",
+    live_link: "https://tinkerr-land.web.app/",
   },
   {
     name: "Cook Dens",
@@ -181,6 +181,7 @@ const projects = [
     ],
     image: cookdens,
     source_code_link: "https://github.com/",
+    live_link: "https://chef-master-pro.web.app/home/",
   },
   {
     name: "Air Cnc",
@@ -206,6 +207,7 @@ const projects = [
     ],
     image: aircnc,
     source_code_link: "https://github.com/",
+    live_link: "https://air-cnc-d27d2.web.app/",
   },
   {
     name: "EmaJhon",
@@ -231,6 +233,7 @@ const projects = [
     ],
     image: emajhon,
     source_code_link: "https://github.com/",
+    live_link: "https://ema-jhon-63274.web.app/",
   },
   {
     name: "Car Doctor",
@@ -256,6 +259,7 @@ const projects = [
     ],
     image: cardoctor,
     source_code_link: "https://github.com/",
+    live_link: "https://car-doctor-man.web.app/",
   },
   {
     name: "Espresso Emporium",
@@ -281,6 +285,7 @@ const projects = [
     ],
     image: coffeesite,
     source_code_link: "https://github.com/",
+    live_link: "https://coffee-beta.surge.sh/",
   },
   {
     name: "Lit Lounge",
@@ -298,6 +303,7 @@ const projects = [
     ],
     image: booksite,
     source_code_link: "https://github.com/",
+    live_link: "http://dadur-boi.surge.sh/",
   },
   {
     name: "Travel Guru",
@@ -315,6 +321,7 @@ const projects = [
     ],
     image: toursite,
     source_code_link: "https://github.com/",
+    live_link: "https://travelar-guru.web.app/",
   },
   {
     name: "Hire Spotlight",
@@ -332,6 +339,7 @@ const projects = [
     ],
     image: jobPortal,
     source_code_link: "https://github.com/",
+    live_link: "http://hire-spotlight.surge.sh/",
   },
 ];
 
