@@ -21,7 +21,7 @@ const MySkills = () => {
         {technologies.map((image, index) => {
           return (
             <motion.div variants={zoomIn(index * 0.4, 0.3)}>
-              <img className="lg:w-20 w-16" key={index} src={image} />
+              <img className="lg:w-20 w-16 " key={index} src={image} />
             </motion.div>
           );
         })}

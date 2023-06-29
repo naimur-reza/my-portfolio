@@ -54,14 +54,14 @@ const About = () => {
 
   return (
     <>
-      <div className="lg:flex justify-between relative ">
+      <div className="lg:flex justify-between  ">
         <motion.div variants={fadeIn("right", "spring", 0.4, 2)}>
           <h1
-            className={`${"orange-text-gradient"} font-semibold absolute right-0 -top-14`}>
+            className={`${"orange-text-gradient animate-pulse font-semibold -mt-14 mb-10 w-fit"} `}>
             {greetings}
           </h1>
 
-          <div>
+          <div className="select-none">
             <h1 className="text-white text-[44px] font-bold">
               while (
               <span

@@ -1,7 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../utils/motion";
-
+import { FaHome } from "react-icons/fa";
+import { IoMdContact } from "react-icons/io";
+import { IoMdConstruct } from "react-icons/io";
 const StarWrapper = (Component, idName) =>
   function HOC() {
     return (
@@ -34,15 +36,21 @@ const Menu = () => {
 
         <ul className=" flex gap-7 items-center text-gray-200">
           <li>
-            <a href="#home">Home</a>
+            <a className="inline-flex items-center gap-2" href="#home">
+              <FaHome size={22} /> Home
+            </a>
           </li>
           <li>
-            <a href="">Skills</a>
+            <a className="inline-flex items-center gap-2" href="">
+              <IoMdConstruct size={22} /> Skills
+            </a>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a className="inline-flex items-center gap-2" href="">
+              <IoMdContact size={22} /> Contact
+            </a>
           </li>
-          <li className=" border border-sky-500  px-2 py-1 bg-sky-500 bg-opacity-20 hover:bg-opacity-30 duration-200 transition">
+          <li className=" border border-sky-500 rounded  px-2 py-1 bg-sky-500 bg-opacity-20 hover:bg-opacity-30 duration-200 transition">
             <a href="">Resume</a>
           </li>
         </ul>
