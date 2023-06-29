@@ -5,6 +5,7 @@ import { FaHome } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
 import { IoMdConstruct } from "react-icons/io";
 import { BsBriefcase } from "react-icons/bs";
+import { GoDownload } from "react-icons/go";
 const StarWrapper = (Component, idName) =>
   function HOC() {
     return (
@@ -36,28 +37,31 @@ const Menu = () => {
         </div>
 
         <ul className=" flex gap-7 items-center text-gray-200">
-          <li>
+          <li className="hover:shadow-2xl hover:shadow-pink-500 duration-400 transition-colors hover:border-b-2 hover:border-pink-500 hover:text-pink-500">
             <a className="inline-flex items-center gap-2" href="#home">
               <FaHome size={22} /> Home
             </a>
           </li>
-          <li>
+          <li className="hover:shadow-2xl hover:shadow-pink-500 duration-400 transition-colors hover:border-b-2 hover:border-pink-500 hover:text-pink-500">
             <a className="inline-flex items-center gap-2" href="#skills">
               <IoMdConstruct size={22} /> Skills
             </a>
           </li>
-          <li>
+          <li className="hover:shadow-2xl hover:shadow-pink-500 duration-400 transition-colors hover:border-b-2 hover:border-pink-500 hover:text-pink-500">
             <a className="inline-flex items-center gap-2" href="#projects">
               <BsBriefcase size={22} /> Projects
             </a>
           </li>
-          <li>
+          <li className="hover:shadow-2xl hover:shadow-pink-500 duration-400 transition-colors hover:border-b-2 hover:border-pink-500 hover:text-pink-500">
             <a className="inline-flex items-center gap-2" href="#contact">
               <IoMdContact size={22} /> Contact
             </a>
           </li>
-          <li className="  border-sky-500 rounded border-b   px-2 py-1 bg-sky-600 bg-opacity-20 hover:bg-opacity-30 duration-200 transition">
-            <a href="">Resume</a>
+          <li className="  border-sky-500 rounded border-b   px-3 pt-3 pb-2 bg-sky-600 bg-opacity-20 hover:bg-opacity-30 duration-200 transition ">
+            <a href="" className="inline-flex items-center gap-2">
+              {" "}
+              <GoDownload size={22} /> Resume
+            </a>
           </li>
         </ul>
       </div>
