@@ -9,6 +9,7 @@
 //   git,
 //   figma,
 // } from "../assets/tech";
+import { FaFacebook, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import frontend from "../../src/assets/frontend.png";
 import backend from "../../src/assets/backend.png";
 import Mern from "../../src/assets/mern.png";
@@ -38,6 +39,24 @@ export const navLinks = [
   },
 ];
 
+const technologies = [
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+  "https://skillicons.dev/icons?i=express",
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+  "https://skillicons.dev/icons?i=vercel",
+  "https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg",
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+];
+
 const services = [
   {
     title: "Frontend Developer",
@@ -54,47 +73,6 @@ const services = [
   {
     title: "React Developer",
     icon: react,
-  },
-];
-
-const technologies = [
-  {
-    name: "HTML 5",
-    // icon: html,
-  },
-  {
-    name: "CSS 3",
-    // icon: css,
-  },
-  {
-    name: "JavaScript",
-    // icon: javascript,
-  },
-  {
-    name: "React JS",
-    // icon: reactjs,
-  },
-
-  {
-    name: "Tailwind CSS",
-    // icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    // icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    // icon: mongodb,
-  },
-
-  {
-    name: "git",
-    // icon: git,
-  },
-  {
-    name: "figma",
-    // icon: figma,
   },
 ];
 
@@ -357,4 +335,23 @@ const projects = [
   },
 ];
 
-export { technologies, services, projects, testimonials };
+const socialLinks = [
+  {
+    icon: FaGithub,
+    link: "https://github.com/naimur-reza",
+  },
+  {
+    icon: FaTwitter,
+    link: "https://twitter.com/NaimurReza3",
+  },
+  {
+    icon: FaLinkedinIn,
+    link: "https://linkedin.com/in/naimur-reza",
+  },
+  {
+    icon: FaFacebook,
+    link: "https://www.facebook.com/iamrezadadu",
+  },
+];
+
+export { services, projects, testimonials, socialLinks, technologies };

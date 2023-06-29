@@ -19,7 +19,7 @@ const App = () => {
           <About />
         </div>
         <a href="" className="scroll-btn" />
-        <div className=" px-24 pt-10">
+        <div className=" pt-10">
           <Services />
           <MySkills />
         </div>
