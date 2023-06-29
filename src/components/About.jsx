@@ -32,11 +32,10 @@ const About = () => {
       if (targetElement) {
         const typed = new Typed(targetElement, {
           strings: ["success != true", "error != false", "!motivated"],
-          typeSpeed: 100,
+          typeSpeed: 110,
           loop: true,
-          backDelay: 2500,
-          // showCursor: false,
-          cursorChar: "",
+          backDelay: 2300,
+          showCursor: false,
         });
         return typed;
       }
@@ -54,7 +53,7 @@ const About = () => {
 
   return (
     <>
-      <div className="lg:flex justify-between  ">
+      <div className="flex justify-between  ">
         <motion.div variants={fadeIn("right", "spring", 0.4, 2)}>
           <h1
             className={`${"orange-text-gradient animate-pulse font-semibold -mt-14 mb-10 w-fit"} `}>
@@ -62,7 +61,7 @@ const About = () => {
           </h1>
 
           <div className="select-none">
-            <h1 className="text-white text-[44px] font-bold">
+            <h1 className="text-white lg:text-[44px] text-[20px] tracking-wide font-bold">
               while (
               <span
                 ref={el}
@@ -101,7 +100,7 @@ const About = () => {
                   <IconContext.Provider value={{ className: "icon-class" }}>
                     <a href={socialLink.link}>
                       <socialLink.icon
-                        size={26}
+                        size={25}
                         className="hover:-translate-y-1 hover:text-sky-500 duration-200 transition cursor-pointer"
                       />
                     </a>

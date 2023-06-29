@@ -112,19 +112,19 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
         name: "nodeJs",
-        color: "green-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       },
       {
         name: "mongodb",
-        color: "green-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
       },
       {
         name: "tailwind",
-        color: "orange-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
       },
     ],
     image: campsunshine,
@@ -138,19 +138,19 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
         name: "nodeJs",
-        color: "green-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       },
       {
         name: "mongodb",
-        color: "pink-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
       },
       {
         name: "tailwind",
-        color: "orange-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
       },
     ],
     image: tinkerland,
@@ -164,19 +164,19 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
         name: "nodeJs",
-        color: "green-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       },
       {
         name: "mongodb",
-        color: "pink-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
       },
       {
         name: "tailwind",
-        color: "orange-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
       },
     ],
     image: cookdens,
@@ -190,19 +190,19 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
         name: "nodeJs",
-        color: "green-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       },
       {
         name: "mongodb",
-        color: "pink-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
       },
       {
         name: "tailwind",
-        color: "orange-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
       },
     ],
     image: aircnc,
@@ -216,19 +216,19 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
         name: "nodeJs",
-        color: "green-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       },
       {
         name: "mongodb",
-        color: "pink-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
       },
       {
         name: "tailwind",
-        color: "orange-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
       },
     ],
     image: emajhon,
@@ -242,19 +242,19 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
         name: "nodeJs",
-        color: "green-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       },
       {
         name: "mongodb",
-        color: "pink-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
       },
       {
         name: "tailwind",
-        color: "orange-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
       },
     ],
     image: cardoctor,
@@ -268,19 +268,19 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
         name: "nodeJs",
-        color: "green-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       },
       {
         name: "mongodb",
-        color: "pink-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
       },
       {
         name: "tailwind",
-        color: "orange-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
       },
     ],
     image: coffeesite,
@@ -294,11 +294,11 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
         name: "tailwind",
-        color: "orange-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
       },
     ],
     image: booksite,
@@ -312,11 +312,11 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
         name: "tailwind",
-        color: "orange-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
       },
     ],
     image: toursite,
@@ -330,11 +330,11 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
         name: "tailwind",
-        color: "orange-text-gradient",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
       },
     ],
     image: jobPortal,

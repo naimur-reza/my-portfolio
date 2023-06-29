@@ -14,7 +14,7 @@ const StarWrapper = (Component, idName) =>
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}
-        className={`${"sm:px-16 px-6 sm:py-6 py-8"} max-w-7xl mx-auto    `}>
+        className={`${"sm:px-16 px-6 sm:py-2 py-4"} max-w-7xl mx-auto    `}>
         <span className="hash-span" id={idName}>
           &nbsp;
         </span>
