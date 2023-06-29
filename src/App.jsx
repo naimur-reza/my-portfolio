@@ -13,7 +13,7 @@ const App = () => {
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>
-        <div className="h-[100vh]  px-24  ">
+        <div className="h-[100vh]  ">
           <Menu />
 
           <About />

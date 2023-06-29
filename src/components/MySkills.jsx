@@ -17,11 +17,11 @@ const MySkills = () => {
           life:
         </p>
       </motion.div>
-      <div className="flex flex-wrap gap-[60px] mt-20">
+      <div className="flex flex-wrap gap-[60px] justify-around mt-20">
         {technologies.map((image, index) => {
           return (
             <motion.div variants={zoomIn(index * 0.4, 0.3)}>
-              <img className="w-24" key={index} src={image} />
+              <img className="lg:w-20 w-16" key={index} src={image} />
             </motion.div>
           );
         })}

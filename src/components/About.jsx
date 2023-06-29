@@ -24,9 +24,9 @@ const About = () => {
   }, []);
   return (
     <>
-      <div className="flex justify-between pt-[6%] ">
-        <motion.div variants={fadeIn("right", "spring", "0.4", "1.5")}>
-          <h1 className={`${"orange-text-gradient"}  mt-7`}>{greetings}</h1>
+      <div className="lg:flex justify-between  ">
+        <motion.div variants={fadeIn("right", "spring", 0.4, 2)}>
+          <h1 className={`${"orange-text-gradient"}  `}>{greetings}</h1>
           <div>
             <p className={`${styles.heroHeadText} `}>
               Hi, I'm <span className="blue-text-gradient">Naimur</span>
@@ -39,7 +39,7 @@ const About = () => {
         <div className="text-sky-400 opacity-80 space-y-5 mt-8">
           {socialLinks.map((socialLink, index) => {
             return (
-              <motion.div variants={fadeIn("left", "spring", "0.4", "1.5")}>
+              <motion.div variants={fadeIn("left", "spring", 0.4, 1.7)}>
                 <div key={index}>
                   <IconContext.Provider value={{ className: "icon-class" }}>
                     <a href={socialLink.link}>
