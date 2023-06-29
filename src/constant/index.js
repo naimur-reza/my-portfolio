@@ -134,7 +134,7 @@ const projects = [
   {
     name: "Tinker Land",
     description:
-      "Web application that enables users to search for trendy toys, Avengers toys, and other toys. Users can also add toys to their cart and checkout using Stripe. The application is built using React, Redux, and Firebase.",
+      "Web application that enables users to search for trendy toys, Avengers toys, and other toys. Users can also add toys to their cart and checkout using Stripe. Applied authentication using firebase",
     tags: [
       {
         name: "react",
@@ -185,7 +185,7 @@ const projects = [
   {
     name: "Air Cnc",
     description:
-      "A hotel booking service web-application. Airbnb clone web-application. Available valuable hotel's with their best services. User's can book their hotel after make payment",
+      "A hotel booking service web-application. Airbnb clone web-application. Available best hotel's with their best services. User's can book their hotel after make payment",
     tags: [
       {
         name: "react",

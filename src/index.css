@@ -44,8 +44,12 @@
 
 .green-pink-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: linear-gradient(90.13deg, #029999c8 1.9%, #a33de7 97.5%);
+  background: -webkit-linear-gradient(
+    -90.13deg,
+    #4bd2ffb8 1.9%,
+    #c46bffac 97.5%
+  );
 }
 
 .orange-text-gradient {

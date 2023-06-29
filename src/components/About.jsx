@@ -36,7 +36,7 @@ const About = () => {
             </p>
           </div>
         </motion.div>
-        <div className="text-sky-400 opacity-80 space-y-5 mt-8">
+        <div className="text-sky-400 opacity-80 space-y-9 mt-8">
           {socialLinks.map((socialLink, index) => {
             return (
               <motion.div variants={fadeIn("left", "spring", 0.4, 1.7)}>
