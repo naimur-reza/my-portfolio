@@ -4,6 +4,7 @@ import { fadeIn, staggerContainer } from "../utils/motion";
 import { FaHome } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
 import { IoMdConstruct } from "react-icons/io";
+import { BsBriefcase } from "react-icons/bs";
 const StarWrapper = (Component, idName) =>
   function HOC() {
     return (
@@ -41,12 +42,17 @@ const Menu = () => {
             </a>
           </li>
           <li>
-            <a className="inline-flex items-center gap-2" href="">
+            <a className="inline-flex items-center gap-2" href="#skills">
               <IoMdConstruct size={22} /> Skills
             </a>
           </li>
           <li>
-            <a className="inline-flex items-center gap-2" href="">
+            <a className="inline-flex items-center gap-2" href="#projects">
+              <BsBriefcase size={22} /> Projects
+            </a>
+          </li>
+          <li>
+            <a className="inline-flex items-center gap-2" href="#contact">
               <IoMdContact size={22} /> Contact
             </a>
           </li>

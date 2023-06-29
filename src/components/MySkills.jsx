@@ -6,7 +6,7 @@ import { technologies } from "../constant";
 import { fadeIn, textVariant, zoomIn } from "../utils/motion";
 const MySkills = () => {
   return (
-    <div className="mt-20">
+    <div id="skills" className="mt-20">
       <motion.div variants={textVariant()}>
         <h1 className={`${styles.sectionSubText}`}>
           My <span>arsenal</span>
