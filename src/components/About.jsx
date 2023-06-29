@@ -28,7 +28,7 @@ const About = () => {
             Hi, I'm <span className="blue-text-gradient">Naimur</span>
           </p>
           <p className={`${styles.heroSubText} w-1/3`}>
-            I developn web interface and web application
+            I develop web interface and web application
           </p>
         </div>
         <div></div>
