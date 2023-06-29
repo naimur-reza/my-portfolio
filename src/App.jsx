@@ -4,6 +4,7 @@ import Works from "./components/Works";
 import Menu from "./components/Menu";
 import Services from "./components/Services";
 import Feedbacks from "./components/Feedbacks";
+import MySkills from "./components/MySkills";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <a href="" className="scroll-btn" />
         <div className=" px-24 pt-10">
           <Services />
+          <MySkills />
         </div>
         <Works />
         <Feedbacks />
