@@ -18,7 +18,7 @@ const App = () => {
 
           <About />
         </div>
-        <a href="" className="scroll-btn" />
+        <a href="#services" className="scroll-btn" />
         <div className=" pt-10">
           <Services />
           <MySkills />

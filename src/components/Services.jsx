@@ -8,7 +8,7 @@ import ServiceCard from "./ServiceCard";
 const Services = () => {
   return (
     <>
-      <div className="mt-20">
+      <div id="services" className="mt-20">
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>Introduction</p>
           <h2 className={styles.sectionHeadText}>Overview.</h2>
