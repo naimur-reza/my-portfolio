@@ -23,10 +23,31 @@ const Services = () => {
           to create efficient, scalable, and user-friendly solutions that solve
           real-world problems. Let's work together to bring your ideas to life!
         </motion.p>
-        <div className="mt-20 flex flex-wrap gap-10">
-          {services.map((service, index) => (
-            <ServiceCard key={service.title} index={index} {...service} />
-          ))}
+        <div className="mt-20 ">
+          <img src="nice" alt="" />
+          <div className="flex gap-10 items-center flex-wrap">
+            <div>
+              <span className="blue-text-gradient font-bold text-[44px]">
+                20
+              </span>
+              <br />
+              <span className="text-gray-100">years old</span>
+            </div>
+            <div>
+              <span className="blue-text-gradient font-bold text-[44px]">
+                2+
+              </span>
+              <br />
+              <span className="text-gray-100">Years web dev </span>
+            </div>
+            <div>
+              <span className="blue-text-gradient font-bold text-[44px]">
+                20
+              </span>
+              <br />
+              <span className="text-gray-100">Total Commits</span>
+            </div>
+          </div>
         </div>
       </div>
     </>
