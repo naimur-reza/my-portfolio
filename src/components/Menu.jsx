@@ -37,22 +37,22 @@ const Menu = () => {
         </div>
 
         <ul className=" flex gap-7 items-center text-gray-200">
-          <li className="hover:shadow-2xl hover:shadow-pink-500 duration-400 transition-colors hover:border-b-2 hover:border-pink-500 hover:text-pink-500">
+          <li className="hover:shadow-2xl hover:shadow-[#ff2727] duration-400 transition-colors hover:border-b-2 hover:border-[#ff2727] hover:text-[#ff2727]">
             <a className="inline-flex items-center gap-2" href="#home">
               <FaHome size={22} /> Home
             </a>
           </li>
-          <li className="hover:shadow-2xl hover:shadow-pink-500 duration-400 transition-colors hover:border-b-2 hover:border-pink-500 hover:text-pink-500">
+          <li className="hover:shadow-2xl hover:shadow-[#ff2727] duration-400 transition-colors hover:border-b-2 hover:border-[#ff2727] hover:text-[#ff2727]">
             <a className="inline-flex items-center gap-2" href="#skills">
               <IoMdConstruct size={22} /> Skills
             </a>
           </li>
-          <li className="hover:shadow-2xl hover:shadow-pink-500 duration-400 transition-colors hover:border-b-2 hover:border-pink-500 hover:text-pink-500">
+          <li className="hover:shadow-2xl hover:shadow-[#ff2727] duration-400 transition-colors hover:border-b-2 hover:border-[#ff2727] hover:text-[#ff2727]">
             <a className="inline-flex items-center gap-2" href="#projects">
               <BsBriefcase size={22} /> Projects
             </a>
           </li>
-          <li className="hover:shadow-2xl hover:shadow-pink-500 duration-400 transition-colors hover:border-b-2 hover:border-pink-500 hover:text-pink-500">
+          <li className="hover:shadow-2xl hover:shadow-[#ff2727] duration-400 transition-colors hover:border-b-2 hover:border-[#ff2727] hover:text-[#ff2727]">
             <a className="inline-flex items-center gap-2" href="#contact">
               <IoMdContact size={22} /> Contact
             </a>

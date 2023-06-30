@@ -5,6 +5,7 @@ import { services } from "../constant";
 import SectionWrapper from "../hoc/SectionWrapper";
 import { fadeIn, textVariant } from "../utils/motion";
 import ServiceCard from "./ServiceCard";
+import CountUp from "react-countup";
 const Services = () => {
   return (
     <>
@@ -28,7 +29,7 @@ const Services = () => {
           <div className="flex gap-10 items-center flex-wrap">
             <div>
               <span className="blue-text-gradient font-bold text-[44px]">
-                20
+                <CountUp enableScrollSpy={true} end={20} />
               </span>
               <br />
               <span className="text-gray-100">years old</span>
@@ -42,7 +43,7 @@ const Services = () => {
             </div>
             <div>
               <span className="blue-text-gradient font-bold text-[44px]">
-                20
+                <CountUp enableScrollSpy={true} end={2100} />
               </span>
               <br />
               <span className="text-gray-100">Total Commits</span>
