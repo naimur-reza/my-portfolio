@@ -36,13 +36,13 @@ const Services = () => {
             </div>
             <div>
               <span className="blue-text-gradient font-bold text-[44px]">
-                2+
+                <CountUp enableScrollSpy={true} end={2} />+
               </span>
               <br />
               <span className="text-gray-100">Years web dev </span>
             </div>
             <div>
-              <span className="blue-text-gradient font-bold text-[44px]">
+              <span className="blue-text-gradient font-bold text-[44px] ">
                 <CountUp enableScrollSpy={true} end={2100} />
               </span>
               <br />

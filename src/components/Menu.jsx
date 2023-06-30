@@ -6,6 +6,7 @@ import { IoMdContact } from "react-icons/io";
 import { IoMdConstruct } from "react-icons/io";
 import { BsBriefcase } from "react-icons/bs";
 import { GoDownload } from "react-icons/go";
+import Resume from "../constant/Naimur Reza Resume.pdf";
 const StarWrapper = (Component, idName) =>
   function HOC() {
     return (
@@ -58,7 +59,10 @@ const Menu = () => {
             </a>
           </li>
           <li className="  border-sky-500 rounded border-b   px-3 pt-3 pb-2 bg-sky-600 bg-opacity-20 hover:bg-opacity-30 duration-200 transition ">
-            <a href="" className="inline-flex items-center gap-2">
+            <a
+              href={Resume}
+              download
+              className="inline-flex items-center gap-2">
               {" "}
               <GoDownload size={22} /> Resume
             </a>
