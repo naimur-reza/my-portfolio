@@ -56,13 +56,13 @@ const About = () => {
       <div className="flex justify-between ">
         <motion.div variants={fadeIn("right", "spring", 0.4, 2)}>
           <h1
-            className={`${"orange-text-gradient animate-pulse font-semibold -mt-12 mb-8 w-fit"} `}>
-            {greetings}
+            className={`${"orange-text-gradient animate-pulse font-semibold -mt-10 mb-5 w-fit"} `}>
+            Hi, {greetings}
           </h1>
           <motion.div variants={fadeIn("right", "spring", 0.4, 2)}>
             <div>
               <p className={`${styles.heroHeadText} `}>
-                Hi, I'm <span className="blue-text-gradient">Naimur Reza</span>
+                I'm <span className="blue-text-gradient">Naimur Reza</span>
               </p>
               <p className={`${styles.heroSubText} w-2/3`}>
                 I develop web interface and web application

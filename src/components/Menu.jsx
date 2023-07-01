@@ -29,7 +29,7 @@ const Menu = () => {
   return (
     <motion.div variants={fadeIn("top", "spring", 0.5, 2)}>
       <div className="flex    justify-between">
-        <div className="w-16 h-16 border rounded-full overflow-hidden">
+        <div className="w-16 h-16 rounded-full overflow-hidden">
           <img
             className="object-cover w-full h-full hover:scale-125 duration-200 transition"
             src="https://i.ibb.co/zS6y2QY/IMG-20230629-201707.jpg"
