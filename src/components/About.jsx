@@ -56,12 +56,21 @@ const About = () => {
       <div className="flex justify-between  ">
         <motion.div variants={fadeIn("right", "spring", 0.4, 2)}>
           <h1
-            className={`${"orange-text-gradient animate-pulse font-semibold -mt-14 mb-10 w-fit"} `}>
+            className={`${"orange-text-gradient animate-pulse font-semibold -mt-12 mb-8 w-fit"} `}>
             {greetings}
           </h1>
-
-          <div className="select-none">
-            <h1 className="text-white lg:text-[44px] text-[20px] tracking-wide font-bold">
+          <motion.div variants={fadeIn("right", "spring", 0.4, 2)}>
+            <div>
+              <p className={`${styles.heroHeadText} `}>
+                Hi, I'm <span className="blue-text-gradient">Naimur Reza</span>
+              </p>
+              <p className={`${styles.heroSubText} w-2/3`}>
+                I develop web interface and web application
+              </p>
+            </div>
+          </motion.div>
+          <div className="mt-16 text-xl">
+            <h1 className="text-white  tracking-wide font-bold">
               while (
               <span
                 ref={el}
