@@ -107,7 +107,7 @@ const About = () => {
                 variants={fadeIn("left", "spring", 0.4, 1.7)}>
                 <div>
                   <IconContext.Provider value={{ className: "icon-class" }}>
-                    <a href={socialLink.link}>
+                    <a title={socialLink.name} href={socialLink.link}>
                       <socialLink.icon
                         size={25}
                         className="hover:-translate-y-1 hover:text-sky-500 duration-200 transition cursor-pointer"

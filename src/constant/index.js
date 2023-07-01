@@ -9,7 +9,13 @@
 //   git,
 //   figma,
 // } from "../assets/tech";
-import { FaFacebook, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaFacebook,
+  FaGithub,
+  FaLinkedinIn,
+  FaTwitter,
+} from "react-icons/fa";
 import frontend from "../../src/assets/frontend.png";
 import backend from "../../src/assets/backend.png";
 import Mern from "../../src/assets/mern.png";
@@ -346,18 +352,26 @@ const projects = [
 const socialLinks = [
   {
     icon: FaGithub,
+    name: "naimur-reza",
     link: "https://github.com/naimur-reza",
   },
   {
     icon: FaTwitter,
+    name: "NaimurReza3",
     link: "https://twitter.com/NaimurReza3",
   },
   {
     icon: FaLinkedinIn,
+    name: "naimur-reza",
     link: "https://linkedin.com/in/naimur-reza",
   },
   {
+    icon: FaEnvelope,
+    name: "naimur.rezaa@gmail.com",
+  },
+  {
     icon: FaFacebook,
+    name: "Naimur Reza Anik",
     link: "https://www.facebook.com/iamrezadadu",
   },
 ];

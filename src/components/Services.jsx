@@ -4,7 +4,7 @@ import { styles } from "../style";
 import { services } from "../constant";
 import SectionWrapper from "../hoc/SectionWrapper";
 import { fadeIn, textVariant } from "../utils/motion";
-import ServiceCard from "./ServiceCard";
+
 import CountUp from "react-countup";
 import PhotoGallery from "./PhotoGallary";
 const Services = () => {
