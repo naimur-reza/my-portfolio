@@ -37,7 +37,7 @@ const Menu = () => {
           />
         </div>
 
-        <ul className=" flex gap-7 items-center text-gray-200">
+        <ul className=" flex gap-7 items-center text-gray-200 overflow-x-scroll">
           <li className="hover:shadow-2xl hover:shadow-[#ff2727] duration-400 transition-colors hover:border-b-2 hover:border-[#ff2727] hover:text-[#ff2727]">
             <a className="inline-flex items-center gap-2" href="#home">
               <FaHome size={22} /> Home
