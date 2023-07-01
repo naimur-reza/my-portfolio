@@ -17,7 +17,7 @@ const Services = () => {
         </motion.div>
         <div className="mt-10 flex justify-between lg:flex-row  flex-col-reverse items-center lg:items-start">
           <div className="mt-10 lg:mt-0">
-            <div className="flex gap-10 items-center flex-wrap ">
+            <div className="flex gap-7 items-center flex-wrap ">
               <div>
                 <span className="blue-text-gradient cursor-help font-bold lg:text-[44px] text-[30px]">
                   <CountUp enableScrollSpy={true} end={20} />

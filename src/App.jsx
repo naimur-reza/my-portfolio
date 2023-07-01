@@ -3,7 +3,7 @@ import About from "./components/About";
 import Works from "./components/Works";
 import Menu from "./components/Menu";
 import Services from "./components/Services";
-
+import "../src/buttonStyle.css";
 import MySkills from "./components/MySkills";
 import Contact from "./components/Contact";
 
@@ -15,18 +15,22 @@ const App = () => {
         <div id="stars2"></div>
         <div id="stars3"></div>
         <div className="h-[100vh]  ">
-          {/* <Menu />
+          <Menu />
 
-          <About /> */}
+          <About />
         </div>
         <a href="#services" className="scroll-btn" />
-        {/* <div className=" pt-10">
+        <div className=" pt-10">
           <Services />
           <MySkills />
         </div>
-        <Works /> */}
+        <Works />
         <Contact />
       </div>
+
+      {/* <div className="box">
+        <span></span>
+      </div> */}
     </>
   );
 };

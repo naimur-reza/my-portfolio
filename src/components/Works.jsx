@@ -3,10 +3,28 @@ import { motion } from "framer-motion";
 
 import { styles } from "../style";
 import github from "../assets/github.png";
-import SectionWrapper from "../hoc/SectionWrapper";
+
 import { projects } from "../constant/index";
-import { fadeIn, textVariant } from "../utils/motion";
+import { fadeIn, staggerContainer, textVariant } from "../utils/motion";
 import { Tilt } from "react-tilt";
+
+const StarWrapper = (Component, idName) =>
+  function HOC() {
+    return (
+      <motion.section
+        variants={staggerContainer()}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}
+        className={`${styles.padding} max-w-7xl mx-auto    `}>
+        <span className="hash-span" id={idName}>
+          &nbsp;
+        </span>
+
+        <Component />
+      </motion.section>
+    );
+  };
 
 const ProjectCard = ({
   index,
@@ -23,14 +41,14 @@ const ProjectCard = ({
       className="cursor-pointer">
       <motion.div
         onClick={() => navigate(live_link)}
-        variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+        variants={fadeIn("up", "spring", index * 1, 0.5)}>
         <Tilt
           options={{
             max: 45,
             scale: 1.1,
             speed: 450,
           }}
-          className="bg-tertiary p-5 mb-10 border-sky-600 border rounded-2xl sm:w-[360px] w-full">
+          className="bg-tertiary p-5 mb-10 blue-border rounded-2xl sm:w-[360px] w-full">
           <div className="relative w-full h-[230px]">
             <img
               src={image}
@@ -77,7 +95,7 @@ const Works = () => {
 
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+          variants={fadeIn("", "", 0.5, 1)}
           className="mt-3  text-secondary text-[17px] max-w-3xl  leading-[30px]">
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
@@ -87,7 +105,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap gap-7 ">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
@@ -96,4 +114,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default StarWrapper(Works, "");
