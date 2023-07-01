@@ -19,7 +19,7 @@ const Services = () => {
           <div className="mt-10 lg:mt-0">
             <div className="flex gap-10 items-center flex-wrap ">
               <div>
-                <span className="blue-text-gradient font-bold lg:text-[44px] text-[30px]">
+                <span className="blue-text-gradient cursor-help font-bold lg:text-[44px] text-[30px]">
                   <CountUp enableScrollSpy={true} end={20} />
                 </span>
                 <br />
@@ -28,7 +28,7 @@ const Services = () => {
                 </span>
               </div>
               <div>
-                <span className="blue-text-gradient font-bold lg:text-[44px] text-[30px]">
+                <span className="blue-text-gradient  cursor-help font-bold lg:text-[44px] text-[30px]">
                   <CountUp enableScrollSpy={true} end={2} />+
                 </span>
                 <br />
@@ -37,7 +37,7 @@ const Services = () => {
                 </span>
               </div>
               <div>
-                <span className="blue-text-gradient font-bold lg:text-[44px]  text-[30px]">
+                <span className="blue-text-gradient cursor-help font-bold lg:text-[44px]  text-[30px]">
                   <CountUp enableScrollSpy={true} end={2100} />
                 </span>
                 <br />

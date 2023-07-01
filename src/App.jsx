@@ -3,7 +3,7 @@ import About from "./components/About";
 import Works from "./components/Works";
 import Menu from "./components/Menu";
 import Services from "./components/Services";
-import Feedbacks from "./components/Feedbacks";
+
 import MySkills from "./components/MySkills";
 
 const App = () => {
@@ -24,7 +24,6 @@ const App = () => {
           <MySkills />
         </div>
         <Works />
-        <Feedbacks />
       </div>
     </>
   );
