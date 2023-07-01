@@ -15,33 +15,41 @@ const Services = () => {
           <p className={styles.sectionSubText}>Introduction</p>
           <h2 className={styles.sectionHeadText}>Overview.</h2>
         </motion.div>
-        <div className="mt-10 flex ">
+        <div className="mt-10 flex gap-5 lg:flex-row flex-col-reverse ">
           <div className="flex flex-col">
-            <div className="flex gap-10 items-center flex-wrap">
-              <div>
-                <span className="blue-text-gradient font-bold text-[44px]">
-                  <CountUp enableScrollSpy={true} end={20} />
-                </span>
-                <br />
-                <span className="text-gray-100">years old</span>
+            <motion.div variants={fadeIn("right", "spring", 0.5, 1)}>
+              <div className="flex gap-10 items-center flex-wrap">
+                <div>
+                  <span className="blue-text-gradient font-bold lg:text-[44px] text-[30px]">
+                    <CountUp enableScrollSpy={true} end={20} />
+                  </span>
+                  <br />
+                  <span className="text-gray-100 lg:text-normal text-sm">
+                    years old
+                  </span>
+                </div>
+                <div>
+                  <span className="blue-text-gradient font-bold lg:text-[44px] text-[30px]">
+                    <CountUp enableScrollSpy={true} end={2} />+
+                  </span>
+                  <br />
+                  <span className="text-gray-100 lg:text-normal text-sm">
+                    Years web dev{" "}
+                  </span>
+                </div>
+                <div>
+                  <span className="blue-text-gradient font-bold lg:text-[44px]  text-[30px]">
+                    <CountUp enableScrollSpy={true} end={2100} />
+                  </span>
+                  <br />
+                  <span className="text-gray-100 lg:text-normal text-sm">
+                    Total Commits
+                  </span>
+                </div>
               </div>
-              <div>
-                <span className="blue-text-gradient font-bold text-[44px]">
-                  <CountUp enableScrollSpy={true} end={2} />+
-                </span>
-                <br />
-                <span className="text-gray-100">Years web dev </span>
-              </div>
-              <div>
-                <span className="blue-text-gradient font-bold text-[44px] ">
-                  <CountUp enableScrollSpy={true} end={2100} />
-                </span>
-                <br />
-                <span className="text-gray-100">Total Commits</span>
-              </div>
-            </div>
+            </motion.div>
             <motion.p
-              variants={fadeIn("", "", 0.1, 1)}
+              variants={fadeIn("", "", 0.5, 1)}
               className="mt-8 text-secondary text-[17px] max-w-xl leading-[30px] text-justify">
               I'm a skilled software developer with experience in React and
               JavaScript, and expertise in frameworks like Next.Js, Node.js and

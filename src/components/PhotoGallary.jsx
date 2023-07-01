@@ -22,7 +22,7 @@ export default function PhotoGallery() {
         effect={"cards"}
         grabCursor={true}
         modules={[EffectCards]}
-        className="mySwiper w-80">
+        className="mySwiper lg:w-1/3 w-[80%]">
         <SwiperSlide>Slide 1</SwiperSlide>
         {images.map((image, index) => (
           <SwiperSlide key={index}>
