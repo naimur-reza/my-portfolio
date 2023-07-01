@@ -1,7 +1,8 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { motion } from "framer-motion";
+import SectionWrapper from "../hoc/SectionWrapper";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-cards";
@@ -10,6 +11,7 @@ import "swiper/css/effect-cards";
 
 // import required modules
 import { EffectCards } from "swiper";
+import { fadeIn } from "../utils/motion";
 
 export default function PhotoGallery() {
   const images = [
@@ -18,18 +20,21 @@ export default function PhotoGallery() {
   ];
   return (
     <>
-      <Swiper
-        effect={"cards"}
-        grabCursor={true}
-        modules={[EffectCards]}
-        className="mySwiper lg:w-1/3 w-[80%]">
-        <SwiperSlide>Slide 1</SwiperSlide>
-        {images.map((image, index) => (
-          <SwiperSlide key={index}>
-            <img className="rounded-lg" src={image} alt="" />
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      <motion.div
+        variants={fadeIn("right", "spring", 0.5, 1)}
+        className="w-[75%] lg:w-1/3 ">
+        <Swiper
+          effect={"cards"}
+          grabCursor={true}
+          modules={[EffectCards]}
+          className="mySwiper ">
+          {images.map((image, index) => (
+            <SwiperSlide key={index}>
+              <img className="rounded-lg" src={image} alt="" />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </motion.div>
     </>
   );
 }

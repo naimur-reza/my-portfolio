@@ -53,7 +53,7 @@ const About = () => {
 
   return (
     <>
-      <div className="flex justify-between  ">
+      <div className="flex justify-between ">
         <motion.div variants={fadeIn("right", "spring", 0.4, 2)}>
           <h1
             className={`${"orange-text-gradient animate-pulse font-semibold -mt-12 mb-8 w-fit"} `}>
