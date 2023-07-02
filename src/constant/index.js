@@ -134,7 +134,8 @@ const projects = [
       },
     ],
     image: campsunshine,
-    source_code_link: "https://github.com/",
+    server_link: "https://github.com/naimur-reza/Campsunshine-Server",
+    client_link: "https://github.com/naimur-reza/Campsunshine-Client",
     live_link: "https://campsunshine-c653c.web.app/",
   },
   {
@@ -160,11 +161,12 @@ const projects = [
       },
     ],
     image: tinkerland,
-    source_code_link: "https://github.com/",
+    server_link: "https://github.com/naimur-reza/TinkerLand-Server",
+    client_link: "https://github.com/naimur-reza/TinkerLand-Client",
     live_link: "https://tinkerr-land.web.app/",
   },
   {
-    name: "Cook Dens",
+    name: "CHEF HUNTER",
     description:
       "A Recipe Services Web Application. Where users can search for food based on Chef. Available valuable chef's with their best recipes. User's can bookmark their favorite Foods.",
     tags: [
@@ -186,7 +188,8 @@ const projects = [
       },
     ],
     image: cookdens,
-    source_code_link: "https://github.com/",
+    server_link: "https://github.com/naimur-reza/CHEF_HUNTER_SERVER",
+    client_link: "https://github.com/naimur-reza/CHEF-HUNTER-CLIENT",
     live_link: "https://chef-master-pro.web.app/home/",
   },
   {
@@ -212,7 +215,8 @@ const projects = [
       },
     ],
     image: aircnc,
-    source_code_link: "https://github.com/",
+    server_link: "https://github.com/naimur-reza/AirCnc-Server",
+    client_link: "https://github.com/naimur-reza/AirCnc-Client",
     live_link: "https://air-cnc-d27d2.web.app/",
   },
   {
@@ -238,7 +242,8 @@ const projects = [
       },
     ],
     image: emajhon,
-    source_code_link: "https://github.com/",
+    server_link: "https://github.com/naimur-reza/Emajhon-Server-Backend",
+    client_link: "https://github.com/naimur-reza/EmaJhon-Content-Client",
     live_link: "https://ema-jhon-63274.web.app/",
   },
   {
@@ -264,7 +269,8 @@ const projects = [
       },
     ],
     image: cardoctor,
-    source_code_link: "https://github.com/",
+    server_link: "https://github.com/naimur-reza/Car-Doctor-Server-Backend",
+    client_link: "https://github.com/naimur-reza/EmaJhon-Content-Client",
     live_link: "https://car-doctor-man.web.app/",
   },
   {
@@ -290,7 +296,8 @@ const projects = [
       },
     ],
     image: coffeesite,
-    source_code_link: "https://github.com/",
+    server_link: "https://github.com/naimur-reza/Coffee-Server-Backend",
+    client_link: "https://github.com/naimur-reza/Coffee-Content-Client",
     live_link: "https://coffee-beta.surge.sh/",
   },
   {
@@ -308,7 +315,8 @@ const projects = [
       },
     ],
     image: booksite,
-    source_code_link: "https://github.com/",
+
+    client_link: "https://github.com/naimur-reza/Lit-lounge",
     live_link: "http://dadur-boi.surge.sh/",
   },
   {
@@ -326,7 +334,8 @@ const projects = [
       },
     ],
     image: toursite,
-    source_code_link: "https://github.com/",
+
+    client_link: "https://github.com/naimur-reza/Travel-Guru-Content-Client",
     live_link: "https://travelar-guru.web.app/",
   },
   {
@@ -344,7 +353,8 @@ const projects = [
       },
     ],
     image: jobPortal,
-    source_code_link: "https://github.com/",
+
+    client_link: "https://github.com/naimur-reza/hire-spotlight",
     live_link: "http://hire-spotlight.surge.sh/",
   },
 ];
