@@ -6,6 +6,7 @@ import Services from "./components/Services";
 import "../src/buttonStyle.css";
 import MySkills from "./components/MySkills";
 import Contact from "./components/Contact";
+import { styles } from "./style";
 
 const App = () => {
   return (
@@ -26,11 +27,10 @@ const App = () => {
         </div>
         <Works />
         <Contact />
+        <h1 className={`${styles.heroSubText} text-center py-4`}>
+          Made by 💫 Naimur Reza
+        </h1>
       </div>
-
-      {/* <div className="box">
-        <span></span>
-      </div> */}
     </>
   );
 };
