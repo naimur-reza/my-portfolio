@@ -6,10 +6,13 @@ import StarWrapper from "../hoc/SectionWrapper";
 import "../buttonStyle.css";
 import emailjs from "@emailjs/browser";
 import { styles } from "../style";
+import { toast } from "react-hot-toast";
 const Contact = () => {
+  const [isLoading, setIsLoading] = React.useState(false);
   const form = useRef();
 
   const sendEmail = (e) => {
+    setIsLoading(true);
     e.preventDefault();
 
     emailjs
@@ -21,10 +24,15 @@ const Contact = () => {
       )
       .then(
         (result) => {
+          toast.success("Message Sent Successfully");
           console.log(result.text);
+          setIsLoading(false);
+          form.current.reset();
         },
         (error) => {
+          toast.error("Message Sent Failed");
           console.log(error.text);
+          setIsLoading(false);
         }
       );
   };
@@ -44,6 +52,7 @@ const Contact = () => {
                     Full Name
                   </label>
                   <input
+                    required
                     name="from_name"
                     type="text"
                     placeholder="name"
@@ -55,6 +64,7 @@ const Contact = () => {
                     Email address
                   </label>
                   <input
+                    required
                     type="email"
                     name="from_email"
                     placeholder="name@example.com"
@@ -66,12 +76,17 @@ const Contact = () => {
                     Message
                   </label>
                   <textarea
+                    required
                     name="message"
                     className="block w-full h-32 px-5 py-3 mt-2      border   rounded-md md:h-48   placeholder-gray-600   bg-gray-900   text-gray-300   border-gray-700    focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                     placeholder="Message"></textarea>
                 </div>
                 <button type="submit" class="button-85" role="button">
-                  Send Message
+                  {isLoading ? (
+                    <span className="w-6 h-6 border-2 block mx-auto rounded-full border-dashed animate-spin"></span>
+                  ) : (
+                    "Send Message"
+                  )}
                 </button>
               </form>
             </div>
