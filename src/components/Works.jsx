@@ -4,7 +4,6 @@ import { BsLink45Deg } from "react-icons/bs";
 import { styles } from "../style";
 import { BiCodeAlt } from "react-icons/bi";
 import { TfiServer } from "react-icons/tfi";
-import github from "../assets/github.png";
 
 import { projects } from "../constant/index";
 import { fadeIn, staggerContainer, textVariant } from "../utils/motion";
