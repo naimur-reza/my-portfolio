@@ -64,7 +64,7 @@ const ProjectCard = ({
         <div className="mt-4 flex  justify-between items-center">
           <div className=" flex  gap-2">
             {tags.map((tag) => (
-              <img src={tag.icon} className="lg:w-8 w-5 " />
+              <img src={tag.icon} className="lg:w-8 w-6 " />
             ))}
           </div>
           <div className="flex items-center gap-3 text-gray-400">
