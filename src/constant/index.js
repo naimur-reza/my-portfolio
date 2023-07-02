@@ -20,16 +20,16 @@ import frontend from "../../src/assets/frontend.png";
 import backend from "../../src/assets/backend.png";
 import Mern from "../../src/assets/mern.png";
 import react from "../../src/assets/react.png";
-import campsunshine from "../../src/assets/projects/campsunshine.png";
-import tinkerland from "../../src/assets/projects/tinkerland.png";
-import cookdens from "../../src/assets/projects/cookdens.png";
-import aircnc from "../../src/assets/projects/aircnc.png";
-import toursite from "../../src/assets/projects/toursite.png";
-import coffeesite from "../../src/assets/projects/coffeesite.png";
-import cardoctor from "../../src/assets/projects/cardoctor.png";
-import emajhon from "../../src/assets/projects/emajhon.png";
-import booksite from "../../src/assets/projects/booksite.png";
-import jobPortal from "../../src/assets/projects/jobportal.png";
+import campsunshine from "../../src/assets/projects/campsunshine-min.png";
+import tinkerland from "../../src/assets/projects/tinkerland-min.png";
+import cookdens from "../../src/assets/projects/cookdens-min.png";
+import aircnc from "../../src/assets/projects/aircnc-min.png";
+import toursite from "../../src/assets/projects/toursite-min.png";
+import coffeesite from "../../src/assets/projects/coffeesite-min.png";
+import cardoctor from "../../src/assets/projects/cardoctor-min.png";
+import emajhon from "../../src/assets/projects/emajhon-min.png";
+import booksite from "../../src/assets/projects/booksite-min.png";
+import jobPortal from "../../src/assets/projects/jobportal-min.png";
 export const navLinks = [
   {
     id: "about",

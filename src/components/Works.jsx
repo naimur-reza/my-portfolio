@@ -50,6 +50,7 @@ const ProjectCard = ({
         className="bg-tertiary p-5 mb-10 blue-border rounded-2xl sm:w-[360px] w-full">
         <div className="relative w-full h-[230px]">
           <img
+            loading="lazy"
             src={image}
             alt="project_image"
             className="w-full -mt-16  h-full object-cover rounded-2xl"
