@@ -1,14 +1,3 @@
-// import {
-//   javascript,
-//   html,
-//   css,
-//   reactjs,
-//   tailwind,
-//   nodejs,
-//   mongodb,
-//   git,
-//   figma,
-// } from "../assets/tech";
 import {
   FaEnvelope,
   FaFacebook,
@@ -58,52 +47,6 @@ const technologies = [
   "https://skillicons.dev/icons?i=vercel",
   "https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-];
-
-const services = [
-  {
-    title: "Frontend Developer",
-    icon: frontend,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Mern Satck Developer",
-    icon: Mern,
-  },
-  {
-    title: "React Developer",
-    icon: react,
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Naimur proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Naimur does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Naimur optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
 ];
 
 const projects = [
@@ -383,4 +326,4 @@ const socialLinks = [
   },
 ];
 
-export { services, projects, testimonials, socialLinks, technologies };
+export { projects, socialLinks, technologies };
