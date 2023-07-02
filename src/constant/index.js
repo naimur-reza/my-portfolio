@@ -16,10 +16,7 @@ import {
   FaLinkedinIn,
   FaTwitter,
 } from "react-icons/fa";
-import frontend from "../../src/assets/frontend.png";
-import backend from "../../src/assets/backend.png";
-import Mern from "../../src/assets/mern.png";
-import react from "../../src/assets/react.png";
+
 import campsunshine from "../../src/assets/projects/campsunshine-min.png";
 import tinkerland from "../../src/assets/projects/tinkerland-min.png";
 import cookdens from "../../src/assets/projects/cookdens-min.png";
