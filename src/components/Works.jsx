@@ -34,7 +34,6 @@ const ProjectCard = ({
   description,
   tags,
   image,
-  source_code_link,
   live_link,
   client_link,
   server_link,

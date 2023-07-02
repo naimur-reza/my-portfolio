@@ -33,7 +33,7 @@ const Menu = () => {
         <div className="w-16 z-50 h-16 rounded-full overflow-hidden">
           <img
             className="object-cover w-full h-full hover:scale-125 duration-200 transition"
-            src="https://i.ibb.co/zS6y2QY/IMG-20230629-201707.jpg"
+            src="https://i.ibb.co/k9JryN8/logo.jpg"
             alt=""
           />
         </div>
