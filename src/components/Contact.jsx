@@ -13,7 +13,7 @@ const Contact = () => {
       </h1>
       <h1 className={`${styles.sectionHeadText}`}>Contact</h1>
       <div className="container gap-4   mx-auto flex items-center justify-between lg:flex-row flex-col-reverse">
-        <div className="mt-5 lg:w-2/3 w-full ">
+        <div className="mt-5 lg:mt-0 lg:w-2/3 w-full ">
           <motion.div variants={fadeIn("up", "spring", 0.5, 0.75)}>
             <div className="w-full px-8 py-8 mx-auto overflow-hidden   rounded-lg shadow-2xl     backdrop-blur-sm  ">
               <form className="mt-6">
