@@ -14,7 +14,12 @@ import { EffectCards } from "swiper";
 import { fadeIn } from "../utils/motion";
 
 export default function PhotoGallery() {
-  const images = [1, 2, 3, 4];
+  const images = [
+    "https://i.ibb.co/fC163x1/me.jpg",
+    "https://i.ibb.co/YNkyfNF/hike.jpg",
+    "https://i.ibb.co/HzNXktP/bike.jpg",
+    "https://i.ibb.co/5BrGfZp/stand.jpg",
+  ];
   return (
     <>
       <motion.div
@@ -30,7 +35,7 @@ export default function PhotoGallery() {
               <img
                 loading="lazy"
                 className="rounded-lg object-cover "
-                src={`../../src/assets/photoGallery/${image}.jpg`}
+                src={image}
                 alt="image"
               />
             </SwiperSlide>

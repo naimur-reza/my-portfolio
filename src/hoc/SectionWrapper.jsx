@@ -10,7 +10,7 @@ const StarWrapper = (Component, idName) =>
         variants={staggerContainer()}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
+        viewport={{ once: TextTrackCueList, amount: 0.25 }}
         className={`${styles.padding} max-w-7xl mx-auto    `}>
         <span className="hash-span" id={idName}>
           &nbsp;
