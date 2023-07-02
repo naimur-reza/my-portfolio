@@ -78,7 +78,7 @@ const Menu = () => {
 
         <ul
           className={`absolute lg:relative pt-20 p-10 lg:p-0 transition-all duration-300 ease-in-out  lg:flex gap-7  space-y-4 lg:space-y-0 inset-x-0  bg-black/90 lg:bg-transparent z-10  items-center text-gray-200  ${
-            isOpen ? "top-0" : "-top-96"
+            isOpen ? "top-0" : "-top-96 lg:top-0"
           }`}>
           <li className="hover:shadow-2xl hover:shadow-[#ff2727] duration-400 transition-colors hover:border-b-2 hover:border-[#ff2727] hover:text-[#ff2727]">
             <a className="inline-flex items-center gap-2" href="#home">

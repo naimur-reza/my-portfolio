@@ -8,7 +8,9 @@ import { styles } from "../style";
 const Contact = () => {
   return (
     <>
-      <h1 className={`${styles.sectionSubText}`}>Way For</h1>
+      <h1 id="contact" className={`${styles.sectionSubText}`}>
+        Way For
+      </h1>
       <h1 className={`${styles.sectionHeadText}`}>Contact</h1>
       <div className="container gap-4   mx-auto flex items-center justify-between lg:flex-row flex-col-reverse">
         <div className="mt-5 lg:w-2/3 w-full ">

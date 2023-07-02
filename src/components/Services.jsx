@@ -15,8 +15,8 @@ const Services = () => {
           <p className={styles.sectionSubText}>Introduction</p>
           <h2 className={styles.sectionHeadText}>Overview.</h2>
         </motion.div>
-        <div className="mt-10 flex justify-between lg:flex-row  flex-col-reverse items-center lg:items-start">
-          <div className="mt-10 lg:mt-0">
+        <div className="mt-10 flex justify-between lg:flex-row  flex-col-reverse items-center lg:items-start ">
+          <div className="mt-10 lg:mt-0 ">
             <div className="flex gap-7 items-center flex-wrap ">
               <div>
                 <span className="blue-text-gradient cursor-help font-bold lg:text-[44px] text-[30px]">
@@ -38,7 +38,7 @@ const Services = () => {
               </div>
               <div>
                 <span className="blue-text-gradient cursor-help font-bold lg:text-[44px]  text-[30px]">
-                  <CountUp enableScrollSpy={true} end={2100} />
+                  <CountUp enableScrollSpy={true} end={1333} />
                 </span>
                 <br />
                 <span className="text-gray-400 font-semibold lg:text-normal text-sm">
@@ -48,7 +48,7 @@ const Services = () => {
             </div>
 
             <motion.p
-              variants={fadeIn("", "", 0.5, 1)}
+              variants={fadeIn("", "", 1, 1)}
               className="mt-8 text-secondary text-[17px] max-w-xl leading-[30px] text-justify">
               I'm a skilled software developer with experience in{" "}
               <span className="font-bold">React</span> and
@@ -61,7 +61,7 @@ const Services = () => {
               problems. Let's work together to bring your ideas to life!
             </motion.p>
             <motion.p
-              variants={fadeIn("", "", 0.5, 1)}
+              variants={fadeIn("", "", 1.3, 1)}
               className="mt-8 text-secondary text-[17px] max-w-xl leading-[30px] text-justify">
               I’ve spent most of my life deeply interested in technology and
               food, continuously building things with both. As a teenager, I was

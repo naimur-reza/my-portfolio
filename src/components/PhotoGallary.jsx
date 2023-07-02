@@ -23,7 +23,7 @@ export default function PhotoGallery() {
   return (
     <>
       <motion.div
-        variants={fadeIn("right", "spring", 1.5, 1)}
+        variants={fadeIn("right", "spring", 0.75, 1)}
         className="w-[75%] lg:w-1/3 ">
         <Swiper
           effect={"cards"}
