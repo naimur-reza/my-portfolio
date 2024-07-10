@@ -17,9 +17,15 @@ const ProjectCard = ({ index, name, image, type }: any) => {
         max-w-[32rem]
         w-full h-[10rem] md:h-[17rem] lg:h-[20rem] "
       >
-        <Image objectFit="cover" src={image} fill alt={name} />
+        <Image
+          className="opacity-50"
+          objectFit="cover"
+          src={image}
+          fill
+          alt={name}
+        />
 
-        <div className="absolute   inset-0 bg-gradient-to-bl from-slate-900 to-stone-900 opacity-75"></div>
+        <div className="absolute   inset-0 bg-gradient-to-bl from-slate-900 to-stone-900 opacity-40"></div>
 
         <div className="absolute  bottom-0 left-0 p-3 md:p-8">
           <div
@@ -27,7 +33,7 @@ const ProjectCard = ({ index, name, image, type }: any) => {
             className="w-4/5 md:w-full md:bg-stone-800 md:bg-opacity-40 md:group-hover:bg-[#56ccf2] md:group-hover:bg-opacity-20 p-4 md:py-3 md:px-8 rounded-full"
           >
             <h1 className="text-muted text-gray-400 font-medium text-[14px] text-sm tracking-wide hidden md:block">
-              {"type"}
+              {type}
             </h1>
 
             <div className="flex items-center space-x-2 text-gray-300 group-hover:text-[#56ccf2]">

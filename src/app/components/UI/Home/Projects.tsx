@@ -6,7 +6,6 @@ import ProjectCard from "../../Cards/ProjectCard";
 import { styles } from "@/app/styles/styles";
 import { fadeIn, staggerContainer, textVariant } from "@/utils/motions";
 import { projects } from "@/constants/projectsData";
-import Image from "next/image";
 
 const StarWrapper = (Component: any, idName: string) =>
   function HOC() {
@@ -50,7 +49,12 @@ const Projects = () => {
 
       <div className="mt-20 mx-3 md:mx-0 md:-ml-4 md:-mr-4 grid grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-5 justify-center md:justify-start ">
         {projects.map((project, index) => (
-          <ProjectCard key={index} name={project.name} image={project.image} />
+          <ProjectCard
+            key={index}
+            name={project.name}
+            type={project.type}
+            image={project.image}
+          />
         ))}
       </div>
     </>

@@ -14,6 +14,7 @@ import expressJs from "@/assets/tech/express.svg";
 import mongodb from "@/assets/tech/mongodb.png";
 import postgresql from "@/assets/tech/pgsql.svg";
 import firebase from "@/assets/tech/firebase.svg";
+import prisma from "@/assets/tech/Prisma.svg";
 import graphql from "@/assets/tech/graphql.svg";
 import unittest from "@/assets/tech/unit.svg";
 import vitest from "@/assets/tech/vitest.svg";
@@ -32,6 +33,7 @@ import booksite from "@/assets/projects/booksite-min.png";
 import jobPortal from "@/assets/projects/jobportal-min.png";
 import tasty from "@/assets/projects/tasty.png";
 import issueTracker from "@/assets/projects/issue-tracker.png";
+import rtx from "@/assets/projects/retrievex.jpeg";
 
 export const assets = {
   palette,
@@ -50,6 +52,7 @@ export const assets = {
   mongodb,
   postgresql,
   firebase,
+  prisma,
   graphql,
   unittest,
   vitest,
@@ -68,4 +71,5 @@ export const assets = {
   jobPortal,
   tasty,
   issueTracker,
+  rtx,
 };
