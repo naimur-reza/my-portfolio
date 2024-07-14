@@ -54,6 +54,11 @@ const Projects = () => {
             name={project.name}
             type={project.type}
             image={project.image}
+            techIcons={project.techIcons}
+            description={project.description}
+            server_link={project.server_link}
+            client_link={project.client_link}
+            live_link={project.live_link}
           />
         ))}
       </div>

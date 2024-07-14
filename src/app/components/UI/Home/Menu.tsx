@@ -90,22 +90,22 @@ const Menu = () => {
             isOpen ? "top-0" : "-top-96 lg:top-0"
           }`}
         >
-          <li className="hover:shadow-2xl hover:shadow-[#ff2727] duration-400 transition-colors hover:border-b-2 hover:border-[#ff2727] hover:text-[#ff2727]">
+          <li className="hover:shadow-2xl hover:shadow-[#56ccf2] duration-400 transition-colors  hover:text-[#56ccf2]">
             <Link className="inline-flex items-center gap-2" href="#home">
               <FaHome size={22} /> Home
             </Link>
           </li>
-          <li className="hover:shadow-2xl hover:shadow-[#ff2727] duration-400 transition-colors hover:border-b-2 hover:border-[#ff2727] hover:text-[#ff2727]">
+          <li className="hover:shadow-2xl hover:shadow-[#56ccf2] duration-400 transition-colors  hover:text-[#56ccf2]">
             <Link className="inline-flex items-center gap-2" href="#skills">
               <IoMdConstruct size={22} /> Skills
             </Link>
           </li>
-          <li className="hover:shadow-2xl hover:shadow-[#ff2727] duration-400 transition-colors hover:border-b-2 hover:border-[#ff2727] hover:text-[#ff2727]">
+          <li className="hover:shadow-2xl hover:shadow-[#56ccf2] duration-400 transition-colors  hover:text-[#56ccf2]">
             <Link className="inline-flex items-center gap-2" href="#projects">
               <BsBriefcase size={22} /> Projects
             </Link>
           </li>
-          <li className="hover:shadow-2xl hover:shadow-[#ff2727] duration-400 transition-colors hover:border-b-2 hover:border-[#ff2727] hover:text-[#ff2727]">
+          <li className="hover:shadow-2xl hover:shadow-[#56ccf2] duration-400 transition-colors  hover:text-[#56ccf2]">
             <Link className="inline-flex items-center gap-2" href="#contact">
               <IoMdContact size={22} /> Contact
             </Link>
