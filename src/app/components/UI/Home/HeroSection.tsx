@@ -32,13 +32,23 @@ const HeroSection = () => {
   return (
     <>
       <div className="flex justify-between ">
-        <motion.div variants={fadeIn("right", "spring", 0.4, 2)}>
+        <motion.div
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true }}
+          variants={fadeIn("right", "spring", 0.4, 2)}
+        >
           <h1
             className={`${"orange-text-gradient animate-pulse font-semibold -mt-10 mb-5 w-fit"} `}
           >
             Hi, {greetings}
           </h1>
-          <motion.div variants={fadeIn("right", "spring", 0.4, 2)}>
+          <motion.div
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true }}
+            variants={fadeIn("right", "spring", 0.4, 2)}
+          >
             <div>
               <p className={`${styles.heroHeadText} `}>
                 I&#39;m <span className="blue-text-gradient">Naimur Reza</span>
@@ -53,6 +63,9 @@ const HeroSection = () => {
           {socialLinks.map((socialLink, index) => {
             return (
               <motion.div
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true }}
                 key={index}
                 variants={fadeIn("left", "spring", 0.4, 1.7)}
               >

@@ -14,6 +14,9 @@ export default function PhotoGallery() {
   return (
     <>
       <motion.div
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}
         variants={fadeIn("right", "spring", 0.75, 1)}
         className="w-[75%] lg:w-1/3"
       >

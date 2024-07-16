@@ -5,6 +5,7 @@ import HeroSection from "./components/UI/Home/HeroSection";
 import Services from "./components/UI/Home/Services";
 import MySkills from "./components/UI/Home/MySkills";
 import Projects from "./components/UI/Home/Projects";
+import Footer from "./components/UI/Home/Footer";
 
 const App = () => {
   return (
@@ -20,13 +21,11 @@ const App = () => {
         </div>
         <a href="#services" className="scroll-btn" />
         <div className=" pt-10">
-          {/* <Services /> */}
-          <MySkills />
+          <Services />
+          <Projects />
         </div>
-        <Projects />
-        <h1 className={`${styles.heroSubText} text-center py-4`}>
-          Made by 💫 Naimur Reza
-        </h1>
+        <MySkills />
+        <Footer />
       </div>
     </>
   );

@@ -39,7 +39,7 @@ const Modal = ({
                     {type}
                   </p>
 
-                  <h1 className="text-4xl md:text-h1 md:leading-[1] text-light font-bold ml-2 md:ml-0 mb-2 md:mb-0 text-gray-100">
+                  <h1 className="text-4xl md:text-h1 md:leading-[1] text-light font-bold ml-2 md:ml-0 mb-4 md:mb-0 text-gray-100">
                     {name}
                   </h1>
                 </div>
@@ -55,21 +55,23 @@ const Modal = ({
               {/* links */}
 
               <div className="flex flex-col-reverse space-y-5 sm:space-y-0 sm:flex-row sm:space-x-3 mb-1  mt-2">
-                <div className="mt-5 w-full lg:w-1/2">
+                <div className="mt-10 lg:mt-5 w-full lg:w-1/2">
                   <div className="flex items-center gap-2">
-                    <Link href={"https://go"}>
+                    <Link href={client_link}>
                       <button className="h-12 inline-flex text-lg items-center space-x-2 px-6 rounded-xl  undefined text-[#2f80ed] bg-slate-800 hover:bg-sky-800/45">
                         <FaGithub className="mr-2 hidden md:block" /> Client
                         side
                       </button>
                     </Link>
-                    <Link href={"https://go"}>
-                      <button className="h-12 inline-flex text-lg items-center space-x-2 px-6 rounded-xl  undefined text-[#2f80ed] bg-slate-800 hover:bg-sky-800/45">
-                        <FaDatabase className="mr-2 hidden md:block" />
-                        Server side
-                      </button>
-                    </Link>
-                    <Link href={"https://go"}>
+                    {server_link && (
+                      <Link href={server_link}>
+                        <button className="h-12 inline-flex text-lg items-center space-x-2 px-6 rounded-xl  undefined text-[#2f80ed] bg-slate-800 hover:bg-sky-800/45">
+                          <FaDatabase className="mr-2 hidden md:block" />
+                          Server side
+                        </button>
+                      </Link>
+                    )}
+                    <Link href={live_link}>
                       <button className="h-12 inline-flex text-lg items-center space-x-2 px-6 rounded-xl  undefined text-[#2f80ed] bg-slate-800 hover:bg-sky-800/45">
                         <FaLink className="mr-2 hidden md:block" />
                         Live site

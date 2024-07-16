@@ -13,7 +13,12 @@ const Services = () => {
   return (
     <>
       <div id="services" className="mt-20">
-        <motion.div variants={textVariant()}>
+        <motion.div
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true }}
+          variants={textVariant()}
+        >
           <p className={styles.sectionSubText}>Introduction</p>
           <h2 className={styles.sectionHeadText}>Overview.</h2>
         </motion.div>
@@ -50,6 +55,9 @@ const Services = () => {
             </div>
 
             <motion.p
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true }}
               variants={fadeIn("", "", 1, 1)}
               className="mt-8 text-secondary text-[17px] max-w-xl leading-[30px] text-justify"
             >
@@ -64,6 +72,9 @@ const Services = () => {
               problems. Let&#39;s work together to bring your ideas to life!
             </motion.p>
             <motion.p
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true }}
               variants={fadeIn("", "", 1.3, 1)}
               className="mt-8 text-secondary text-[17px] max-w-xl leading-[30px] text-justify"
             >

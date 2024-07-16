@@ -21,7 +21,8 @@ export const projects = [
   },
   {
     name: "RetrieveX",
-    description: "",
+    description:
+      "RetrieveX is a community-driven platform designed to help individuals report and reclaim lost items. The goal is to create a seamless process for reuniting people with their belongings, making it easier and faster for lost items to find their way back to their rightful owners. Key features include user accounts, detailed reporting for lost and found items, a claim system with ownership verification, an admin dashboard, and a secure login system with password hashing. Users can easily search and filter through reports, and the site supports both dark and light modes for accessibility.",
 
     techIcons: [
       assets.reactJs,
@@ -106,6 +107,16 @@ export const projects = [
     live_link: "https://air-cnc-d27d2.web.app/",
   },
   {
+    name: "Sessrail",
+    description:
+      "Sessrail is a regional railway network website, created to address the critical need for rail infrastructure in the region. It provides updates, project details, and interactive features for users to stay informed and engaged with the progress.",
+    techIcons: [assets.reactJs, assets.tailwind],
+    image: assets.sessrail,
+    type: "Client project",
+    client_link: "https://github.com/holapepgit/portfolio-1",
+    live_link: "https://sessrail.com/",
+  },
+  {
     name: "CHEF HUNTER",
     description:
       "A Recipe Services Web Application. Where users can search for food based on Chef. Available valuable chef's with their best recipes. User's can bookmark their favorite Foods.",
@@ -136,15 +147,5 @@ export const projects = [
     type: "Personal project",
     client_link: "https://github.com/naimur-reza/Lit-lounge",
     live_link: "http://dadur-boi.surge.sh/",
-  },
-  {
-    name: "Hire Spotlight",
-    description:
-      "A job searching web-application. Where user can search for job and they can apply for job.",
-    techIcons: [assets.reactJs, assets.tailwind],
-    image: assets.jobPortal,
-    type: "Assignment project",
-    client_link: "https://github.com/naimur-reza/hire-spotlight",
-    live_link: "http://hire-spotlight.surge.sh/",
   },
 ];

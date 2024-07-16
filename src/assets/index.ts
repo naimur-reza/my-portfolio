@@ -34,6 +34,8 @@ import jobPortal from "@/assets/projects/jobportal-min.png";
 import tasty from "@/assets/projects/tasty.png";
 import issueTracker from "@/assets/projects/issue-tracker.png";
 import rtx from "@/assets/projects/retrievex.jpeg";
+import sessrail from "@/assets/projects/sessrail.jpeg";
+import stroke from "@/assets/icons/strokes.png";
 
 export const assets = {
   palette,
@@ -72,4 +74,6 @@ export const assets = {
   tasty,
   issueTracker,
   rtx,
+  sessrail,
+  stroke,
 };

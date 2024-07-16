@@ -49,17 +49,24 @@ const Projects = () => {
 
       <div className="mt-20 mx-3 md:mx-0 md:-ml-4 md:-mr-4 grid grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-5 justify-center md:justify-start ">
         {projects.map((project, index) => (
-          <ProjectCard
+          <motion.div
             key={index}
-            name={project.name}
-            type={project.type}
-            image={project.image}
-            techIcons={project.techIcons}
-            description={project.description}
-            server_link={project.server_link}
-            client_link={project.client_link}
-            live_link={project.live_link}
-          />
+            variants={fadeIn("up", "spring", index * 1, 0.9)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true }}
+          >
+            <ProjectCard
+              name={project.name}
+              type={project.type}
+              image={project.image}
+              techIcons={project.techIcons}
+              description={project.description}
+              server_link={project.server_link}
+              client_link={project.client_link}
+              live_link={project.live_link}
+            />
+          </motion.div>
         ))}
       </div>
     </>
