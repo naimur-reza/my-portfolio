@@ -114,7 +114,7 @@ const Menu = () => {
             <Link
               target="_blank"
               href={
-                "https://drive.google.com/file/d/1LBPAa0hBnbWuT7btJ2BhJb34MRYvcfas/view?usp=share_link"
+                "https://drive.google.com/file/d/1kA4joeAzdIAru7YxDlb6VCV_20avR1Gz/view?usp=sharing"
               }
               className="inline-flex items-center gap-2"
             >
