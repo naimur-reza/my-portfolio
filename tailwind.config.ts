@@ -22,6 +22,9 @@ const config: Config = {
       screens: {
         xs: "450px",
       },
+      fontFamily: {
+        Michroma: ["Michroma", "sans-serif"],
+      },
     },
   },
   plugins: [],

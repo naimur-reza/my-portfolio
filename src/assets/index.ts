@@ -36,8 +36,10 @@ import issueTracker from "@/assets/projects/issue-tracker.png";
 import rtx from "@/assets/projects/retrievex.jpeg";
 import sessrail from "@/assets/projects/sessrail.jpeg";
 import stroke from "@/assets/icons/strokes.png";
+import logo from "@/assets/logo.svg";
 
 export const assets = {
+  logo,
   palette,
   programming,
   database,
