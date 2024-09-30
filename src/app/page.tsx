@@ -11,7 +11,7 @@ const App = () => {
   return (
     <>
       {/* <PreLoader /> */}
-      <div className=" bg-black overflow-hidden">
+      <div className=" bg-deep overflow-hidden">
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>

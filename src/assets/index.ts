@@ -37,9 +37,11 @@ import rtx from "@/assets/projects/retrievex.jpeg";
 import sessrail from "@/assets/projects/sessrail.jpeg";
 import stroke from "@/assets/icons/strokes.png";
 import logo from "@/assets/logo.svg";
+import heroEl from "@/assets/heo-el.svg";
 
 export const assets = {
   logo,
+  heroEl,
   palette,
   programming,
   database,

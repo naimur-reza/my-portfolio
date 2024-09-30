@@ -2,6 +2,9 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 
+/* import Algem, sans-serif */
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

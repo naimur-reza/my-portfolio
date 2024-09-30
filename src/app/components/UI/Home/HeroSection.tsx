@@ -3,38 +3,56 @@
 import { IconContext } from "react-icons";
 import { styles } from "@/app/styles/styles";
 import { socialLinks } from "@/constants";
+import { assets } from "@/assets";
+import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <>
-      <div className="flex justify-between ">
+    <div className="py-[100px] pl-[100px] ">
+      <div className="flex justify-between container ">
         <div>
-          <p className={`${styles.heroHeadText} `}>
-            I&#39;m <span className="blue-text-gradient">Naimur Reza</span>
+          <p className=" text-white/80 text-lg font-medium pl-1 ">
+            Hi I&apos;M
           </p>
-          <p className={`${styles.heroSubText} w-2/3`}>
-            I develop web interface and web application
+          <p className={` ${styles.heroHeadText} `}>
+            <span className=" font-Michroma">Naimur Reza</span>
           </p>
+          <div className="text-white/80 text-lg font-medium pl-1 flex items-center gap-2 font-Alkatra mt-3">
+            Design
+            <Image
+              src={
+                "https://cdn.prod.website-files.com/615d64939fac622a8fc9824e/664d9b44d2905d1b523be92d_spacerix.svg"
+              }
+              alt="spacerix"
+              height={10}
+              width={10}
+            />
+            Development
+            <Image
+              src={
+                "https://cdn.prod.website-files.com/615d64939fac622a8fc9824e/664d9b44d2905d1b523be92d_spacerix.svg"
+              }
+              alt="spacerix"
+              height={10}
+              width={10}
+            />{" "}
+            Branding
+          </div>
         </div>
 
-        <div className="text-sky-400 opacity-90 space-y-9 mt-8">
-          {socialLinks.map((socialLink, index) => {
-            return (
-              <div key={index}>
-                <IconContext.Provider value={{ className: "icon-class" }}>
-                  <a title={socialLink.name} href={socialLink.link}>
-                    <socialLink.icon
-                      size={25}
-                      className="hover:-translate-y-1 hover:text-sky-500 duration-200 transition cursor-pointer"
-                    />
-                  </a>
-                </IconContext.Provider>
-              </div>
-            );
-          })}
+        <div>
+          <Image
+            className="absolute top-0 left-0 z-[2] w-full h-full"
+            src={assets.heroEl}
+            alt="logo"
+            height={500}
+            width={500}
+          />
         </div>
+
+        <div className="max-lg:hidden w-[250px] xxl:w-[350px] h-[250px] xxl:h-[350px] absolute top-[5%] blur-[100px] right-[12%] bg-[#3a96ff]/50" />
       </div>
-    </>
+    </div>
   );
 };
 
