@@ -38,9 +38,17 @@ import sessrail from "@/assets/projects/sessrail.jpeg";
 import stroke from "@/assets/icons/strokes.png";
 import logo from "@/assets/logo.svg";
 import heroEl from "@/assets/heo-el.svg";
+import anik from "@/assets/anik.png";
+import bioWhiteImage from "@/assets/white-image.svg";
+import heroElRight from "@/assets/hero-elems-right.svg";
+import heroElLeft from "@/assets/hero_el_left.svg";
 
 export const assets = {
   logo,
+  anik,
+  heroElRight,
+  heroElLeft,
+  bioWhiteImage,
   heroEl,
   palette,
   programming,

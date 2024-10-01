@@ -26,6 +26,7 @@ const config: Config = {
       fontFamily: {
         Michroma: ["Michroma", "sans-serif"],
         Alkatra: ["Alkatra", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },

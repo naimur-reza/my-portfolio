@@ -52,6 +52,20 @@ const HeroSection = () => {
 
         <div className="max-lg:hidden w-[250px] xxl:w-[350px] h-[250px] xxl:h-[350px] absolute top-[5%] blur-[100px] right-[12%] bg-[#3a96ff]/50" />
       </div>
+      <Image
+        className="absolute bottom-5 right-5 z-[2] w-14"
+        src={assets.heroElRight}
+        alt="logo"
+        height={200}
+        width={200}
+      />
+      <Image
+        className="absolute bottom-5 left-5 z-[2] w-40"
+        src={assets.heroElLeft}
+        alt="logo"
+        height={200}
+        width={200}
+      />
     </div>
   );
 };
