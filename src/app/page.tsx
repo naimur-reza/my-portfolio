@@ -12,20 +12,15 @@ const App = () => {
     <>
       {/* <PreLoader /> */}
       <div className=" bg-deep overflow-hidden">
-        <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
-        <div className="h-[100vh]  ">
-          <Menu />
+        <Menu />
+        <div className=" max-w-[1020px] mx-auto">
           <HeroSection />
-        </div>
-        <a href="#services" className="scroll-btn" />
-        <div className=" pt-10">
+
           <Services />
-          <Projects />
+          {/* <Projects /> */}
         </div>
-        <MySkills />
-        <Footer />
+        {/* <MySkills /> */}
+        {/* <Footer /> */}
       </div>
     </>
   );

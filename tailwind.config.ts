@@ -27,6 +27,8 @@ const config: Config = {
         Michroma: ["Michroma", "sans-serif"],
         Alkatra: ["Alkatra", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
+        dharmagothic: ["DharmaGothic", "sans-serif"],
+        algem: ["Algem", "sans-serif"],
       },
     },
   },

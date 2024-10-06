@@ -8,16 +8,13 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <div className="py-[100px] pl-[100px] ">
+    <div className="  max-w-2xl min-h-screen py-[100px]">
       <div className="flex justify-between container ">
         <div>
-          <p className=" text-white/80 text-lg font-medium pl-1 ">
-            Hi I&apos;M
-          </p>
           <p className={` ${styles.heroHeadText} `}>
-            <span className=" font-Michroma">Naimur Reza</span>
+            <span className=" font-algem">Naimur Reza</span>
           </p>
-          <div className="text-white/80 text-lg font-medium pl-1 flex items-center gap-2 font-Alkatra mt-3">
+          <div className="text-white/80 text-lg font-medium pl-1 flex items-center gap-2 font-Michroma mt-3">
             Design
             <Image
               src={
