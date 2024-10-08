@@ -42,9 +42,14 @@ import anik from "@/assets/anik.png";
 import bioWhiteImage from "@/assets/white-image.svg";
 import heroElRight from "@/assets/hero-elems-right.svg";
 import heroElLeft from "@/assets/hero_el_left.svg";
+import ribbonDark from "@/assets/Looping Ribbon_dark.svg";
+import mcraft from "@/assets/projects/mcraft.jpeg";
+import holapep from "@/assets/projects/holapep.jpeg";
+import cryptoCritox from "@/assets/projects/crypto-critox.jpeg";
 
 export const assets = {
   logo,
+  ribbonDark,
   anik,
   heroElRight,
   heroElLeft,
@@ -88,4 +93,7 @@ export const assets = {
   rtx,
   sessrail,
   stroke,
+  mcraft,
+  holapep,
+  cryptoCritox,
 };

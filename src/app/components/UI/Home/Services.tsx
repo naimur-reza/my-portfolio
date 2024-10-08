@@ -25,19 +25,19 @@ const Services = () => {
           </div>
 
           <div className=" max-w-xl text-white space-y-5">
-            <h1 className="text-3xl font-algem">
+            <h1 className="text-xl lg:text-3xl font-algem">
               Digital Designer + Creative Developer
             </h1>
             <p className="text-sm ">
-              Carl is an award winning designer specialised in crafting
-              exceptional web experiences and interactions. His passion for
-              design and high level of craftsmanship have earned him a
-              reputation as a go-to guy for delivering excellent work. He has
-              worked with a wide range of brands across the globe, producing
-              websites that compete with industry leaders and exceed client
-              expectations.{" "}
+              Naimur Reza is a skilled full stack developer specializing in
+              building dynamic and responsive web applications. With expertise
+              in modern JavaScript frameworks, he has earned a reputation for
+              delivering high-quality, scalable solutions that enhance user
+              experience. Naimur has worked with diverse clients globally,
+              creating projects that stand out in performance and design,
+              consistently exceeding client expectations.
             </p>
-            <p>Based In Wellington, New ZEaland</p>
+            <p>Based In Bangladesh</p>
           </div>
         </div>
       </div>

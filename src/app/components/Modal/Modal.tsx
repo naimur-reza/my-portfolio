@@ -57,12 +57,14 @@ const Modal = ({
               <div className="flex flex-col-reverse space-y-5 sm:space-y-0 sm:flex-row sm:space-x-3 mb-1  mt-2">
                 <div className="mt-10 lg:mt-5 w-full lg:w-1/2">
                   <div className="flex items-center gap-2">
-                    <Link target="_blank" href={client_link}>
-                      <button className="h-12 inline-flex text-lg items-center space-x-2 px-6 rounded-xl  undefined text-[#2f80ed] bg-slate-800 hover:bg-sky-800/45">
-                        <FaGithub className="mr-2 hidden md:block" /> Client
-                        side
-                      </button>
-                    </Link>
+                    {client_link && (
+                      <Link target="_blank" href={client_link}>
+                        <button className="h-12 inline-flex text-lg items-center space-x-2 px-6 rounded-xl  undefined text-[#2f80ed] bg-slate-800 hover:bg-sky-800/45">
+                          <FaGithub className="mr-2 hidden md:block" /> Client
+                          side
+                        </button>
+                      </Link>
+                    )}
                     {server_link && (
                       <Link href={server_link}>
                         <button className="h-12 inline-flex text-lg items-center space-x-2 px-6 rounded-xl  undefined text-[#2f80ed] bg-slate-800 hover:bg-sky-800/45">

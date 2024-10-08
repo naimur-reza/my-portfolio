@@ -6,23 +6,24 @@ import Services from "./components/UI/Home/Services";
 import MySkills from "./components/UI/Home/MySkills";
 import Projects from "./components/UI/Home/Projects";
 import Footer from "./components/UI/Home/Footer";
+import CursorAnimation from "./components/CursorAnimation";
 
 const App = () => {
   return (
-    <>
-      {/* <PreLoader /> */}
+    <div>
+      <CursorAnimation />
       <div className=" bg-deep overflow-hidden">
         <Menu />
-        <div className=" max-w-[1020px] mx-auto">
+        <div className=" max-w-[1050px] mx-auto px-5 ">
           <HeroSection />
 
           <Services />
-          {/* <Projects /> */}
+          <Projects />
+          <MySkills />
         </div>
-        {/* <MySkills /> */}
         {/* <Footer /> */}
       </div>
-    </>
+    </div>
   );
 };
 

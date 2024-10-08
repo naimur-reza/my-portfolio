@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { assets } from "@/assets";
@@ -12,6 +12,7 @@ const Menu = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
   return (
     <div className="flex  font-Michroma  justify-between container py-5">
       <div className="w-10 z-50 h-10 rounded-full overflow-hidden relative">
@@ -73,7 +74,7 @@ const Menu = () => {
         {navItems.map((item, idx) => (
           <li
             key={idx}
-            className="hover:shadow-2xl hover:shadow-[#56ccf2] duration-400 transition-colors  hover:text-[#56ccf2]"
+            className="hover:shadow-2xl hover:shadow-[#56ccf2] duration-400 transition-colors  hover:text-[#56ccf2] nav-items"
           >
             <Link
               className="inline-flex items-center gap-2 text-[14px] "

@@ -57,6 +57,47 @@ export const projects = [
     live_link: "https://campsunshine-c653c.web.app/",
   },
   {
+    name: "Crypto-Critox",
+    description:
+      "Critox is a modern crypto Web3 website featuring vibrant design and smooth GSAP animations. The site offers interactive elements, such as animated rockets, that respond to scroll position, creating an engaging user experience. Built using Tailwind CSS, it highlights the future of crypto technology with a sleek, responsive interface",
+
+    techIcons: [
+      assets.reactJs,
+      assets.tailwind,
+      // assets.,
+    ],
+    image: assets.cryptoCritox,
+    type: "Personal project",
+    client_link: "https://github.com/naimur-reza/Crypto-Critox",
+    live_link: "https://crypto-critox.vercel.app/",
+  },
+  {
+    name: "HolaPep",
+    description:
+      "Holapep is a dynamic web platform that provides custom software solutions and staffing services. Specializing in open-source technologies and Enterprise WordPress Solutions, it delivers tailored digital solutions for businesses. I integrated a seamless blog system using Prisma and GraphQL, ensuring fast, efficient data management and a smooth user experience",
+
+    techIcons: [
+      assets.reactJs,
+      assets.prisma,
+      assets.tailwind,
+      assets.graphql,
+      assets.postgresql,
+    ],
+    image: assets.holapep,
+    type: "Agency project",
+    live_link: "http://holapep.com/",
+  },
+  {
+    name: "MCraft Studios",
+    description:
+      "MCraft Studios is a creative agency specializing in delivering top-notch digital solutions, including custom software development and innovative design services. With expertise in web development, UI/UX design, and branding, MCraft Studios helps businesses stand out with tailored, visually striking, and highly functional websites and applications.",
+
+    techIcons: [assets.reactJs, assets.tailwind],
+    image: assets.mcraft,
+    type: "Agency project",
+    live_link: "http://mcraftstudios.com/",
+  },
+  {
     name: "Tinker Land",
     description:
       "Web application that enables users to search for trendy toys, Avengers toys, and other toys. Users can also add toys to their cart and checkout using Stripe. Applied authentication using firebase",

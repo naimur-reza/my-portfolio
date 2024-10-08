@@ -6,13 +6,10 @@ import { mySkills } from "@/constants";
 
 const MySkills = () => {
   return (
-    <div className="container">
+    <div className="container mt-20">
       <p className={styles.sectionSubText}>Introduction</p>
       <h2 className={styles.sectionHeadText}>Superpowers.</h2>
 
-      <div className="w-full flex">
-        The skills, tools and technologies I use to bring your products to life
-      </div>
       <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-3  ">
         {mySkills.map((item, index) => (
           <div
